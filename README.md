@@ -32,18 +32,18 @@ Intensive Module은 QuestionAnswering 하위태스크를 사용해 응답가능 
 주어진 데이터셋이 경제기사 데이터이기 때문에 경제 금융 한국어 문서로 파인튜닝된 KB-ALBERT를 사전학습언어모델로 사용하였습니다.
 
 ### 성능
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/72967d88-c61e-4adc-aff1-3a56b764f9a6/Untitled.jpeg)
+![그림1](https://user-images.githubusercontent.com/24906028/209667022-4161396f-cd03-48cc-a07f-d7a860121f87.jpg)
 ### 적용
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f6740b2a-acdb-4511-9594-732eef41da20/Untitled.png)
+![image](https://user-images.githubusercontent.com/24906028/209667039-a621185b-3902-44e4-a2d4-a095d13c8441.png)
 
 기업여신상품설명서의 일부를 발췌하여 지문으로 넣고 질문을 입력했을 때 답을 잘 추론하는 것을 확인할 수 있었습니다.  
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a40fcae6-6e99-4844-a544-149df5bd3b48/Untitled.png)
+![image](https://user-images.githubusercontent.com/24906028/209667052-003e06b3-51c7-405f-9fa9-acfb909d04dd.png)
 
 숫자를 추론해야하는 질문에도 답을 잘 추론합니다.  
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e8ee11a-bce3-4d0f-a377-8aea3990e8dd/Untitled.png)
+![image](https://user-images.githubusercontent.com/24906028/209667060-2a7fd18b-a586-4d0e-82d2-9df62ccc3e87.png)
 
 답을 알 수 없는 경우에는 답을 하지 않습니다.
 
